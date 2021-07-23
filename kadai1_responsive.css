@@ -1,0 +1,252 @@
+@media screen and (max-width: 1080px){
+  header{
+    background-color: #fff;
+    z-index:10;
+    width:100%;
+    position:relative;
+  }
+  .header_right{
+    display:none;
+  }
+  .header_menu_icon{
+    display:block;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .top{
+    padding-top:258px;
+    padding-bottom:30px;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero-sp.png);
+  }
+  .top_left{
+    margin: auto;
+  }
+  .top_left_message{
+    font-size:15px;
+  }
+  .list_message{
+    text-align:left;
+  }
+  .top_no1{
+    top:-170px;
+    left:30px;
+  }
+  .top_bottom{
+    padding-top:24px;
+  }
+  .top2_logo_pc{
+    display:none;
+  }
+  .top2_logo_sp{
+    display:block;
+  }
+  .top2_text_wrapper{
+    flex-direction:column;
+  }
+  .top2_left{
+    text-align:center;
+    width:100%;
+  }
+  .top2_left p{
+    display:block;
+  }
+  .top2_left section{
+    font-size:30px;
+  }
+  .top2_left span{
+    font-size:26px;
+  }
+  .top2_left article{
+    text-align:left;
+  }
+  .top2_right{
+    text-align: center;
+    width:250px;
+    margin:0 auto;
+  }
+  .top2_right span:last-child{
+    font-size:12px;
+    letter-spacing:0;
+  }
+  .content_section h2{
+    font-size:26px;
+    margin-bottom:10px;
+  }
+  .content_section p{
+    font-size:14px;
+    margin-top:10px;
+  }
+  .list_no{
+    font-size:30px;
+  }
+  .list_title{
+    font-size:20px;
+  }
+  .list_message{
+    font-size:15px;
+    line-height:2.2;
+  }
+  .list_message span{
+    font-size:24px;
+  }
+  .content_section{
+    margin:30px 0;
+  }
+  .movie_youtube_pc{
+    display:none;
+  }
+  .movie_youtube_sp{
+    display:block;
+  }
+  .example_title h4{
+    font-size:16px;
+  }
+  .example_title img{
+    width:24px;
+  }
+  .company_item{
+    width:50%;
+  }
+  .graph_items{
+    flex-wrap:wrap;
+  }
+  .graph_item{
+    width:50%;
+    padding:10px 20px;
+  }
+  .graph_item:first-child{
+    width:80%;
+    margin:0 auto;
+    padding:0;
+    padding-bottom: 20px
+  }
+  .feature_03_teacher{
+    flex-direction:column;
+    width:100%;
+  }
+  .teacher_box{
+    width:100%;
+    margin-top:10px;
+  }
+  .teacher_text{
+    line-height:2;
+  }
+  .course_content li{
+    padding:0;
+    margin:0;
+  }
+  .course_box{
+    flex-direction:column;
+    width:100%;
+    margin-left:-20px;
+  }
+  .course_left{
+    width:100%;
+    margin-top:-40px;
+    margin-left:0;
+    margin-right:0;
+    text-align: center;
+  }
+  .course_right{
+    width:100%;
+  }
+  .mind_title{
+    font-size:32px;
+  }
+  .mind_message{
+    flex-direction:column;
+    background-color: #fff;
+    padding:45px 40px 40px;
+  }
+  .mind_message_text{
+    padding:20px;
+    margin:0;
+    order:2;
+  }
+  .mind_message_photo{
+      order:1;
+  }
+  .graduate_items{
+    flex-direction:column;
+    padding-left:0;
+  }
+  .graduate_item{
+    width:100%;
+    padding-left: 0;
+  }
+  .graduate_item:nth-child(2){
+    border-top:solid 1px #efefef;
+    border-bottom:solid 1px #efefef;
+    padding:30px 0;
+    margin-bottom:40px;
+  }
+  .graduate_arrow{
+    border-right:solid 3px #f79214;
+    border-top:solid 3px #f79214;
+    width:10px;
+    height:10px;
+    display:block;
+    position:absolute;
+    right:18px;
+    bottom:18px;
+    transform:rotate(45deg);
+  }
+  .graduate_career{
+    display:none;
+  }
+  .graduate_career_second{
+    display:block;
+  }
+  .company_box{
+    height:600px;
+  }
+  .company_main_image_pc{
+    display:none;
+  }
+  .company_main_image_sp{
+    display:block;
+  }
+  .survice_items{
+    flex-direction:column;
+    padding-left: 0;
+  }
+  .survice_item{
+    width:100%;
+    padding-left: 0;
+  }
+  a:hover .hover_scale{
+    transform: none;
+  }
+  .survice_image{
+    max-width:280px;
+    margin:0 auto;
+  }
+  .footer_wrapper{
+    display:flex;
+    flex-direction:column;
+  }
+  .footer_left{
+    order:3;
+    text-align:center;
+    border-top:solid 1px #fff;
+    padding-top:30px;
+  }
+  .footer_center{
+    order:1;
+    padding-left: 0;
+  }
+  .footer_center_item{
+    padding-left:0;
+  }
+  .footer_right{
+    order:2;
+    margin:10px auto 30px;
+  }
+  .footer_left_sns{
+    justify-content:center;
+  }
+  .footer_bottom{
+    text-align: center;
+  }
+}
